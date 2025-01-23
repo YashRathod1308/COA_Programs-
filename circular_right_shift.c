@@ -8,14 +8,12 @@ int main(){
         scanf("%d",&a[i]);
     }
 
-    // printf("%d",shift[0]);
-
     for(int i=0,j=1;i<MAX-1 && j<MAX;i++,j++){
         s[j] = a[i];
     }
     
     s[0] = a[MAX-1];
-    printf("Circular Right shift:");
+    printf("\nCircular Right shift:");
     for(int i=0;i<MAX;i++){
         printf("%d ",s[i]);
     }
