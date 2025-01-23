@@ -16,7 +16,7 @@ int main(){
     
     shift[MAX-1] = a[0];
 
-    printf("Circular Left shift Register: ");
+    printf("\nCircular Left shift Register: ");
     for(int i=0;i<MAX;i++){
         printf("%d ",shift[i]);
     }
