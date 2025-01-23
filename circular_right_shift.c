@@ -15,7 +15,7 @@ int main(){
     }
     
     shift[0] = a[MAX-1];
-
+    printf("Circular Right shift:");
     for(int i=0;i<MAX;i++){
         printf("%d ",shift[i]);
     }
